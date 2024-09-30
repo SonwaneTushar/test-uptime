@@ -1,28 +1,175 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="forenzy-domain-verification" content="1ff1c0034427dd25bd42395103a2bc3ac0aee9eff744b976f131d743a8dd5f86">
+<meta name="forenzy-domain-verification" content="c650c0434f2eeb1531fcd7a225c3b6efcccb6e3fab07581506f611401f80b6da">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beautiful World</title>
+    <title>Careers | HyFun Foods</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            background-color: #f0f8ff;
-            color: #2c3e50;
+            padding: 0;
+            background-color: #f4f4f4;
         }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
         h1 {
-            font-size: 3rem;
-            text-shadow: 2px 2px #2980b9;
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .job-listings {
+            margin-bottom: 50px;
+        }
+
+        .job {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .job h3 {
+            margin: 0;
+            color: #007BFF;
+            font-size: 1.5rem;
+        }
+
+        .job p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .job a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        .application-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h1>World is Beautiful</h1>
+
+    <!-- Header -->
+    <header>
+        <h1>Join Our Team at HyFun Foods</h1>
+    </header>
+
+    <div class="container">
+        <!-- Job Listings -->
+        <section class="job-listings">
+            <h2>Current Openings</h2>
+
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p>Location: Remote</p>
+                <p>We are looking for a skilled software engineer to join our team. Experience with Python and JavaScript is a plus.</p>
+                <a href="#">Read more & apply</a>
+            </div>
+
+            <div class="job">
+                <h3>Marketing Specialist</h3>
+                <p>Location: New York, USA</p>
+                <p>We're seeking an experienced marketing professional to help drive our brand and create innovative campaigns.</p>
+                <a href="#">Read more & apply</a>
+            </div>
+
+            <div class="job">
+                <h3>Product Manager</h3>
+                <p>Location: Singapore</p>
+                <p>Help us deliver the best products to our customers by managing our product development lifecycle from ideation to launch.</p>
+                <a href="#">Read more & apply</a>
+            </div>
+        </section>
+
+        <!-- Application Form -->
+        <section class="application-form">
+            <h2>Apply Now</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="position">Position</label>
+                <input type="text" id="position" name="position" placeholder="Enter the position you're applying for" required>
+
+                <label for="message">Why do you want to join us?</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit Application">
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Company Name | All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
